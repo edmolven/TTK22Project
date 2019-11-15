@@ -1,0 +1,40 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/custom_msgs_generate_messages_cpp"
+  "/home/eivinddm/ttk22Project/workspace/devel/include/custom_msgs/twistEstimate.h"
+  "/home/eivinddm/ttk22Project/workspace/devel/include/custom_msgs/ActuatorSetpoints.h"
+  "/home/eivinddm/ttk22Project/workspace/devel/include/custom_msgs/gnssGGA_status.h"
+  "/home/eivinddm/ttk22Project/workspace/devel/include/custom_msgs/sensorSample.h"
+  "/home/eivinddm/ttk22Project/workspace/devel/include/custom_msgs/SurgeSwayYaw.h"
+  "/home/eivinddm/ttk22Project/workspace/devel/include/custom_msgs/threeFloats.h"
+  "/home/eivinddm/ttk22Project/workspace/devel/include/custom_msgs/XsensQuaternion.h"
+  "/home/eivinddm/ttk22Project/workspace/devel/include/custom_msgs/gnssHDT.h"
+  "/home/eivinddm/ttk22Project/workspace/devel/include/custom_msgs/BaroSensorSample.h"
+  "/home/eivinddm/ttk22Project/workspace/devel/include/custom_msgs/GnssSensorSample.h"
+  "/home/eivinddm/ttk22Project/workspace/devel/include/custom_msgs/ThreeDofForce.h"
+  "/home/eivinddm/ttk22Project/workspace/devel/include/custom_msgs/NorthEastHeading.h"
+  "/home/eivinddm/ttk22Project/workspace/devel/include/custom_msgs/rawGPSdata.h"
+  "/home/eivinddm/ttk22Project/workspace/devel/include/custom_msgs/ImuSensorSample.h"
+  "/home/eivinddm/ttk22Project/workspace/devel/include/custom_msgs/gnssGGA.h"
+  "/home/eivinddm/ttk22Project/workspace/devel/include/custom_msgs/baroSample.h"
+  "/home/eivinddm/ttk22Project/workspace/devel/include/custom_msgs/Internal.h"
+  "/home/eivinddm/ttk22Project/workspace/devel/include/custom_msgs/gnssPose.h"
+  "/home/eivinddm/ttk22Project/workspace/devel/include/custom_msgs/NED.h"
+  "/home/eivinddm/ttk22Project/workspace/devel/include/custom_msgs/velocityEstimate.h"
+  "/home/eivinddm/ttk22Project/workspace/devel/include/custom_msgs/gnssRMC.h"
+  "/home/eivinddm/ttk22Project/workspace/devel/include/custom_msgs/RemoteControlState.h"
+  "/home/eivinddm/ttk22Project/workspace/devel/include/custom_msgs/latlong.h"
+  "/home/eivinddm/ttk22Project/workspace/devel/include/custom_msgs/gnssSample.h"
+  "/home/eivinddm/ttk22Project/workspace/devel/include/custom_msgs/podAngle.h"
+  "/home/eivinddm/ttk22Project/workspace/devel/include/custom_msgs/MotorState.h"
+  "/home/eivinddm/ttk22Project/workspace/devel/include/custom_msgs/positionEstimate.h"
+  "/home/eivinddm/ttk22Project/workspace/devel/include/custom_msgs/orientationEstimate.h"
+  "/home/eivinddm/ttk22Project/workspace/devel/include/custom_msgs/orientationEuler.h"
+  "/home/eivinddm/ttk22Project/workspace/devel/include/custom_msgs/ekfBias.h"
+  "/home/eivinddm/ttk22Project/workspace/devel/include/custom_msgs/JoyAxis.h"
+  "/home/eivinddm/ttk22Project/workspace/devel/include/custom_msgs/ImuSensor.h"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang )
+  include(CMakeFiles/custom_msgs_generate_messages_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

@@ -1,0 +1,8 @@
+prefix=/home/eivinddm/milliAmpere/workspace/devel
+
+Name: remote_control
+Description: Description of remote_control
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/eivinddm/milliAmpere/workspace/devel/lib 
+Requires: message_runtime rospy std_msgs custom_msgs geometry_msgs

@@ -1,0 +1,28 @@
+<launch>
+	<!-- Launch Supervisor node -->
+	<include file = "$(find supervisor)/launch/supervisor.launch" />
+	<!-- Launch nodes pertaining to actuators in namespace "actuators" -->
+	<group ns="actuators">
+		<!-- Common parameters for the servos and motor drivers-->
+		<rosparam file = "$(find actuators)/config/servo.yaml" command = "load" ns="servo"/>
+		<rosparam file = "$(find actuators)/config/angle_encoder.yaml" command = "load" ns = "encoder" />
+		<include file = "$(find actuators)/launch/actuators.launch" />
+	</group>
+	<!-- Launch vector GNSS driver -->
+	<include file = "$(find nmea_navsat_driver)/launch/nmea_navsat_driver.launch" />
+	<!-- Launch remote control node -->
+	<include file = "$(find remote_control)/launch/remote_control.launch" />
+	<!-- Launch thrust allocation node -->
+	<include file = "$(find thrust_allocation)/launch/thrust_allocation.launch" />
+	<!-- Launch IMU driver -->
+	<include file = "$(find xsens_driver)/launch/xsens.launch" />
+	<!-- Launch Navigation node -->
+	<include file = "$(find navigation)/launch/navigation.launch"/>
+	<!-- Launch Dynamic Positioning node -->
+	<include file = "$(find dynamic_positioning)/launch/dynamic_positioning.launch" />
+	<!-- Launch Dynamic Positioning node -->
+	<include file = "$(find adaptive_control)/launch/adaptive_control.launch" />
+	<!-- Launch Guidance node -->
+	<include file = "$(find guidance)/launch/guidance.launch" />
+	<include file = "$(find observer)/launch/observer.launch" />
+</launch>

@@ -1,0 +1,40 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/custom_msgs_generate_messages_nodejs"
+  "/home/eivinddm/ttk22Project/workspace/devel/share/gennodejs/ros/custom_msgs/msg/twistEstimate.js"
+  "/home/eivinddm/ttk22Project/workspace/devel/share/gennodejs/ros/custom_msgs/msg/ActuatorSetpoints.js"
+  "/home/eivinddm/ttk22Project/workspace/devel/share/gennodejs/ros/custom_msgs/msg/gnssGGA_status.js"
+  "/home/eivinddm/ttk22Project/workspace/devel/share/gennodejs/ros/custom_msgs/msg/sensorSample.js"
+  "/home/eivinddm/ttk22Project/workspace/devel/share/gennodejs/ros/custom_msgs/msg/SurgeSwayYaw.js"
+  "/home/eivinddm/ttk22Project/workspace/devel/share/gennodejs/ros/custom_msgs/msg/threeFloats.js"
+  "/home/eivinddm/ttk22Project/workspace/devel/share/gennodejs/ros/custom_msgs/msg/XsensQuaternion.js"
+  "/home/eivinddm/ttk22Project/workspace/devel/share/gennodejs/ros/custom_msgs/msg/gnssHDT.js"
+  "/home/eivinddm/ttk22Project/workspace/devel/share/gennodejs/ros/custom_msgs/msg/BaroSensorSample.js"
+  "/home/eivinddm/ttk22Project/workspace/devel/share/gennodejs/ros/custom_msgs/msg/GnssSensorSample.js"
+  "/home/eivinddm/ttk22Project/workspace/devel/share/gennodejs/ros/custom_msgs/msg/ThreeDofForce.js"
+  "/home/eivinddm/ttk22Project/workspace/devel/share/gennodejs/ros/custom_msgs/msg/NorthEastHeading.js"
+  "/home/eivinddm/ttk22Project/workspace/devel/share/gennodejs/ros/custom_msgs/msg/rawGPSdata.js"
+  "/home/eivinddm/ttk22Project/workspace/devel/share/gennodejs/ros/custom_msgs/msg/ImuSensorSample.js"
+  "/home/eivinddm/ttk22Project/workspace/devel/share/gennodejs/ros/custom_msgs/msg/gnssGGA.js"
+  "/home/eivinddm/ttk22Project/workspace/devel/share/gennodejs/ros/custom_msgs/msg/baroSample.js"
+  "/home/eivinddm/ttk22Project/workspace/devel/share/gennodejs/ros/custom_msgs/msg/Internal.js"
+  "/home/eivinddm/ttk22Project/workspace/devel/share/gennodejs/ros/custom_msgs/msg/gnssPose.js"
+  "/home/eivinddm/ttk22Project/workspace/devel/share/gennodejs/ros/custom_msgs/msg/NED.js"
+  "/home/eivinddm/ttk22Project/workspace/devel/share/gennodejs/ros/custom_msgs/msg/velocityEstimate.js"
+  "/home/eivinddm/ttk22Project/workspace/devel/share/gennodejs/ros/custom_msgs/msg/gnssRMC.js"
+  "/home/eivinddm/ttk22Project/workspace/devel/share/gennodejs/ros/custom_msgs/msg/RemoteControlState.js"
+  "/home/eivinddm/ttk22Project/workspace/devel/share/gennodejs/ros/custom_msgs/msg/latlong.js"
+  "/home/eivinddm/ttk22Project/workspace/devel/share/gennodejs/ros/custom_msgs/msg/gnssSample.js"
+  "/home/eivinddm/ttk22Project/workspace/devel/share/gennodejs/ros/custom_msgs/msg/podAngle.js"
+  "/home/eivinddm/ttk22Project/workspace/devel/share/gennodejs/ros/custom_msgs/msg/MotorState.js"
+  "/home/eivinddm/ttk22Project/workspace/devel/share/gennodejs/ros/custom_msgs/msg/positionEstimate.js"
+  "/home/eivinddm/ttk22Project/workspace/devel/share/gennodejs/ros/custom_msgs/msg/orientationEstimate.js"
+  "/home/eivinddm/ttk22Project/workspace/devel/share/gennodejs/ros/custom_msgs/msg/orientationEuler.js"
+  "/home/eivinddm/ttk22Project/workspace/devel/share/gennodejs/ros/custom_msgs/msg/ekfBias.js"
+  "/home/eivinddm/ttk22Project/workspace/devel/share/gennodejs/ros/custom_msgs/msg/JoyAxis.js"
+  "/home/eivinddm/ttk22Project/workspace/devel/share/gennodejs/ros/custom_msgs/msg/ImuSensor.js"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang )
+  include(CMakeFiles/custom_msgs_generate_messages_nodejs.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

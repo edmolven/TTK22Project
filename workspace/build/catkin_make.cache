@@ -1,0 +1,2 @@
+custom_msgs:ros_imc_broker
+-DCATKIN_DEVEL_PREFIX=/home/eivinddm/ttk22Project/workspace/devel -DCMAKE_INSTALL_PREFIX=/home/eivinddm/ttk22Project/workspace/install -G Unix Makefiles

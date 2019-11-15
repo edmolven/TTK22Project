@@ -1,0 +1,6 @@
+set(custom_msgs_SETUP_PY_VERSION "2.0.2")
+set(custom_msgs_SETUP_PY_SCRIPTS "")
+set(custom_msgs_SETUP_PY_PACKAGES "custom_msgs")
+set(custom_msgs_SETUP_PY_PACKAGE_DIRS "src/custom_msgs")
+set(custom_msgs_SETUP_PY_MODULES "")
+set(custom_msgs_SETUP_PY_MODULE_DIRS "")

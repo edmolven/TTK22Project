@@ -1,0 +1,8 @@
+prefix=/home/eivinddm/milliAmpere/workspace/devel
+
+Name: ma_docking_mpc
+Description: Description of ma_docking_mpc
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/eivinddm/milliAmpere/workspace/devel/lib 
+Requires: 

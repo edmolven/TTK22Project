@@ -1,0 +1,8 @@
+prefix=/home/eivinddm/milliAmpere/workspace/devel
+
+Name: sim_integrator
+Description: Description of sim_integrator
+Version: 0.0.1
+Cflags: 
+Libs: -L/home/eivinddm/milliAmpere/workspace/devel/lib 
+Requires: 

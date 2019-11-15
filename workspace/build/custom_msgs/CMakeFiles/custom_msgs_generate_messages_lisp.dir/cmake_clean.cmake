@@ -1,0 +1,40 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/custom_msgs_generate_messages_lisp"
+  "/home/eivinddm/ttk22Project/workspace/devel/share/common-lisp/ros/custom_msgs/msg/twistEstimate.lisp"
+  "/home/eivinddm/ttk22Project/workspace/devel/share/common-lisp/ros/custom_msgs/msg/ActuatorSetpoints.lisp"
+  "/home/eivinddm/ttk22Project/workspace/devel/share/common-lisp/ros/custom_msgs/msg/gnssGGA_status.lisp"
+  "/home/eivinddm/ttk22Project/workspace/devel/share/common-lisp/ros/custom_msgs/msg/sensorSample.lisp"
+  "/home/eivinddm/ttk22Project/workspace/devel/share/common-lisp/ros/custom_msgs/msg/SurgeSwayYaw.lisp"
+  "/home/eivinddm/ttk22Project/workspace/devel/share/common-lisp/ros/custom_msgs/msg/threeFloats.lisp"
+  "/home/eivinddm/ttk22Project/workspace/devel/share/common-lisp/ros/custom_msgs/msg/XsensQuaternion.lisp"
+  "/home/eivinddm/ttk22Project/workspace/devel/share/common-lisp/ros/custom_msgs/msg/gnssHDT.lisp"
+  "/home/eivinddm/ttk22Project/workspace/devel/share/common-lisp/ros/custom_msgs/msg/BaroSensorSample.lisp"
+  "/home/eivinddm/ttk22Project/workspace/devel/share/common-lisp/ros/custom_msgs/msg/GnssSensorSample.lisp"
+  "/home/eivinddm/ttk22Project/workspace/devel/share/common-lisp/ros/custom_msgs/msg/ThreeDofForce.lisp"
+  "/home/eivinddm/ttk22Project/workspace/devel/share/common-lisp/ros/custom_msgs/msg/NorthEastHeading.lisp"
+  "/home/eivinddm/ttk22Project/workspace/devel/share/common-lisp/ros/custom_msgs/msg/rawGPSdata.lisp"
+  "/home/eivinddm/ttk22Project/workspace/devel/share/common-lisp/ros/custom_msgs/msg/ImuSensorSample.lisp"
+  "/home/eivinddm/ttk22Project/workspace/devel/share/common-lisp/ros/custom_msgs/msg/gnssGGA.lisp"
+  "/home/eivinddm/ttk22Project/workspace/devel/share/common-lisp/ros/custom_msgs/msg/baroSample.lisp"
+  "/home/eivinddm/ttk22Project/workspace/devel/share/common-lisp/ros/custom_msgs/msg/Internal.lisp"
+  "/home/eivinddm/ttk22Project/workspace/devel/share/common-lisp/ros/custom_msgs/msg/gnssPose.lisp"
+  "/home/eivinddm/ttk22Project/workspace/devel/share/common-lisp/ros/custom_msgs/msg/NED.lisp"
+  "/home/eivinddm/ttk22Project/workspace/devel/share/common-lisp/ros/custom_msgs/msg/velocityEstimate.lisp"
+  "/home/eivinddm/ttk22Project/workspace/devel/share/common-lisp/ros/custom_msgs/msg/gnssRMC.lisp"
+  "/home/eivinddm/ttk22Project/workspace/devel/share/common-lisp/ros/custom_msgs/msg/RemoteControlState.lisp"
+  "/home/eivinddm/ttk22Project/workspace/devel/share/common-lisp/ros/custom_msgs/msg/latlong.lisp"
+  "/home/eivinddm/ttk22Project/workspace/devel/share/common-lisp/ros/custom_msgs/msg/gnssSample.lisp"
+  "/home/eivinddm/ttk22Project/workspace/devel/share/common-lisp/ros/custom_msgs/msg/podAngle.lisp"
+  "/home/eivinddm/ttk22Project/workspace/devel/share/common-lisp/ros/custom_msgs/msg/MotorState.lisp"
+  "/home/eivinddm/ttk22Project/workspace/devel/share/common-lisp/ros/custom_msgs/msg/positionEstimate.lisp"
+  "/home/eivinddm/ttk22Project/workspace/devel/share/common-lisp/ros/custom_msgs/msg/orientationEstimate.lisp"
+  "/home/eivinddm/ttk22Project/workspace/devel/share/common-lisp/ros/custom_msgs/msg/orientationEuler.lisp"
+  "/home/eivinddm/ttk22Project/workspace/devel/share/common-lisp/ros/custom_msgs/msg/ekfBias.lisp"
+  "/home/eivinddm/ttk22Project/workspace/devel/share/common-lisp/ros/custom_msgs/msg/JoyAxis.lisp"
+  "/home/eivinddm/ttk22Project/workspace/devel/share/common-lisp/ros/custom_msgs/msg/ImuSensor.lisp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang )
+  include(CMakeFiles/custom_msgs_generate_messages_lisp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

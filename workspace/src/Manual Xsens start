@@ -1,0 +1,11 @@
+#~ Required to launch xsens manually
+#~ (cd /home/milliampere/workspace && rosrun xsens_driver mtdevice.py -m 4 -f 100)
+#~ (cd /home/milliampere/workspace && rosrun xsens_driver mtnode.py _device:=/dev/ttyUSB0 _baudrate:=115200)
+
+
+#### "Check what is connected to which ports"
+## dmesg | grep tty
+######
+
+##plot graph
+##rosrun rqt_plot rqt_plot 

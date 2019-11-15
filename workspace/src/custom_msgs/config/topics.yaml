@@ -1,0 +1,10 @@
+
+rc: '/rc_state/'
+actuator_1_setpoint: '/actuator_ref_1'
+actuator_1_motor_state: '/actuators/actuator_1/motor_state'
+actuator_1_angle: '/actuators/actuator_1/azimuth_angle'
+actuator_2_setpoint: '/actuator_ref_2'
+actuator_2_motor_state: '/actuators/actuator_2/motor_state'
+actuator_2_angle: '/actuators/actuator_2/azimuth_angle'
+eta: '/navigation/eta'
+nu: '/navigation/nu'

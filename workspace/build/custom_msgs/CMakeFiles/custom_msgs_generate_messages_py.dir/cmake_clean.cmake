@@ -1,0 +1,41 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/custom_msgs_generate_messages_py"
+  "/home/eivinddm/ttk22Project/workspace/devel/lib/python2.7/dist-packages/custom_msgs/msg/_twistEstimate.py"
+  "/home/eivinddm/ttk22Project/workspace/devel/lib/python2.7/dist-packages/custom_msgs/msg/_ActuatorSetpoints.py"
+  "/home/eivinddm/ttk22Project/workspace/devel/lib/python2.7/dist-packages/custom_msgs/msg/_gnssGGA_status.py"
+  "/home/eivinddm/ttk22Project/workspace/devel/lib/python2.7/dist-packages/custom_msgs/msg/_sensorSample.py"
+  "/home/eivinddm/ttk22Project/workspace/devel/lib/python2.7/dist-packages/custom_msgs/msg/_SurgeSwayYaw.py"
+  "/home/eivinddm/ttk22Project/workspace/devel/lib/python2.7/dist-packages/custom_msgs/msg/_threeFloats.py"
+  "/home/eivinddm/ttk22Project/workspace/devel/lib/python2.7/dist-packages/custom_msgs/msg/_XsensQuaternion.py"
+  "/home/eivinddm/ttk22Project/workspace/devel/lib/python2.7/dist-packages/custom_msgs/msg/_gnssHDT.py"
+  "/home/eivinddm/ttk22Project/workspace/devel/lib/python2.7/dist-packages/custom_msgs/msg/_BaroSensorSample.py"
+  "/home/eivinddm/ttk22Project/workspace/devel/lib/python2.7/dist-packages/custom_msgs/msg/_GnssSensorSample.py"
+  "/home/eivinddm/ttk22Project/workspace/devel/lib/python2.7/dist-packages/custom_msgs/msg/_ThreeDofForce.py"
+  "/home/eivinddm/ttk22Project/workspace/devel/lib/python2.7/dist-packages/custom_msgs/msg/_NorthEastHeading.py"
+  "/home/eivinddm/ttk22Project/workspace/devel/lib/python2.7/dist-packages/custom_msgs/msg/_rawGPSdata.py"
+  "/home/eivinddm/ttk22Project/workspace/devel/lib/python2.7/dist-packages/custom_msgs/msg/_ImuSensorSample.py"
+  "/home/eivinddm/ttk22Project/workspace/devel/lib/python2.7/dist-packages/custom_msgs/msg/_gnssGGA.py"
+  "/home/eivinddm/ttk22Project/workspace/devel/lib/python2.7/dist-packages/custom_msgs/msg/_baroSample.py"
+  "/home/eivinddm/ttk22Project/workspace/devel/lib/python2.7/dist-packages/custom_msgs/msg/_Internal.py"
+  "/home/eivinddm/ttk22Project/workspace/devel/lib/python2.7/dist-packages/custom_msgs/msg/_gnssPose.py"
+  "/home/eivinddm/ttk22Project/workspace/devel/lib/python2.7/dist-packages/custom_msgs/msg/_NED.py"
+  "/home/eivinddm/ttk22Project/workspace/devel/lib/python2.7/dist-packages/custom_msgs/msg/_velocityEstimate.py"
+  "/home/eivinddm/ttk22Project/workspace/devel/lib/python2.7/dist-packages/custom_msgs/msg/_gnssRMC.py"
+  "/home/eivinddm/ttk22Project/workspace/devel/lib/python2.7/dist-packages/custom_msgs/msg/_RemoteControlState.py"
+  "/home/eivinddm/ttk22Project/workspace/devel/lib/python2.7/dist-packages/custom_msgs/msg/_latlong.py"
+  "/home/eivinddm/ttk22Project/workspace/devel/lib/python2.7/dist-packages/custom_msgs/msg/_gnssSample.py"
+  "/home/eivinddm/ttk22Project/workspace/devel/lib/python2.7/dist-packages/custom_msgs/msg/_podAngle.py"
+  "/home/eivinddm/ttk22Project/workspace/devel/lib/python2.7/dist-packages/custom_msgs/msg/_MotorState.py"
+  "/home/eivinddm/ttk22Project/workspace/devel/lib/python2.7/dist-packages/custom_msgs/msg/_positionEstimate.py"
+  "/home/eivinddm/ttk22Project/workspace/devel/lib/python2.7/dist-packages/custom_msgs/msg/_orientationEstimate.py"
+  "/home/eivinddm/ttk22Project/workspace/devel/lib/python2.7/dist-packages/custom_msgs/msg/_orientationEuler.py"
+  "/home/eivinddm/ttk22Project/workspace/devel/lib/python2.7/dist-packages/custom_msgs/msg/_ekfBias.py"
+  "/home/eivinddm/ttk22Project/workspace/devel/lib/python2.7/dist-packages/custom_msgs/msg/_JoyAxis.py"
+  "/home/eivinddm/ttk22Project/workspace/devel/lib/python2.7/dist-packages/custom_msgs/msg/_ImuSensor.py"
+  "/home/eivinddm/ttk22Project/workspace/devel/lib/python2.7/dist-packages/custom_msgs/msg/__init__.py"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang )
+  include(CMakeFiles/custom_msgs_generate_messages_py.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

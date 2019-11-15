@@ -1,0 +1,6 @@
+# Don't include the CMakeLists.txt from this specific folder, it's only a symlink
+/CMakeLists.txt
+
+# Don't include any *.pyc files, they're built at catkin_make if necessary
+*.pyc
+doc//html/

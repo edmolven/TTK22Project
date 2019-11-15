@@ -1,0 +1,8 @@
+prefix=/home/eivinddm/milliAmpere/workspace/devel
+
+Name: xsens_driver
+Description: Description of xsens_driver
+Version: 3.0.0
+Cflags: 
+Libs: -L/home/eivinddm/milliAmpere/workspace/devel/lib 
+Requires: rospy std_msgs tf sensor_msgs geometry_msgs gps_common diagnostic_msgs custom_msgs

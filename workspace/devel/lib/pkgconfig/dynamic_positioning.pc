@@ -1,0 +1,8 @@
+prefix=/home/eivinddm/milliAmpere/workspace/devel
+
+Name: dynamic_positioning
+Description: Description of dynamic_positioning
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/eivinddm/milliAmpere/workspace/devel/lib 
+Requires: 

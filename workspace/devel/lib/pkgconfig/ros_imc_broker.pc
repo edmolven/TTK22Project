@@ -1,0 +1,8 @@
+prefix=/home/eivinddm/ttk22Project/workspace/devel
+
+Name: ros_imc_broker
+Description: Description of ros_imc_broker
+Version: 0.0.1
+Cflags: -I/home/eivinddm/ttk22Project/workspace/devel/include -I/home/eivinddm/ttk22Project/workspace/src/ros_imc_broker/include
+Libs: -L/home/eivinddm/ttk22Project/workspace/devel/lib 
+Requires: roscpp std_msgs message_runtime
